@@ -11,6 +11,17 @@ int subtract(int a, int b){
     return total;
 }
 
+int multiply(int a, int b){
+    int total = a * b;
+    return total;
+}
+
+int divide(int a, int b){
+    int total = a / b;
+    return total;
+}
+
+
 int main(){
     int firstNum, secondNum;
     cout << "Enter First Number: ";
@@ -21,5 +32,7 @@ int main(){
 
     cout << "The Sum is: " << add(firstNum,secondNum);
     cout << " The Difference is: " << subtract(firstNum,secondNum);
+    cout << "The Product is: " << multiply(firstNum,secondNum);
+    cout << "The Quotient is: " << divide(firstNum,secondNum);
     return 0;
 }
