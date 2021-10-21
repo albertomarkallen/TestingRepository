@@ -6,6 +6,11 @@ int add(int a, int b){
     return total;
 }
 
+int subtract(int a, int b){
+    int total = a - b;
+    return total;
+}
+
 int main(){
     int firstNum, secondNum;
     cout << "Enter First Number: ";
@@ -15,5 +20,6 @@ int main(){
     cin >> secondNum;
 
     cout << "The Sum is: " << add(firstNum,secondNum);
+    cout << " The Difference is: " << subtract(firstNum,secondNum);
     return 0;
 }
