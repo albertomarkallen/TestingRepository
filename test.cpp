@@ -21,6 +21,11 @@ int divide(int a, int b){
     return total;
 }
 
+int modulo(int a, int b){
+    int total = a % b;
+    return total;
+}
+
 
 int main(){
     int firstNum, secondNum;
@@ -34,5 +39,6 @@ int main(){
     cout << " The Difference is: " << subtract(firstNum,secondNum);
     cout << "The Product is: " << multiply(firstNum,secondNum);
     cout << "The Quotient is: " << divide(firstNum,secondNum);
+    cout << "The Modulo is: " << modulo(firstNum,secondNum);
     return 0;
 }
