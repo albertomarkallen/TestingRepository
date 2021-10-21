@@ -14,6 +14,6 @@ int main(){
     cout << "Enter Second Number: ";
     cin >> secondNum;
 
-    
-        return 0;
+    cout << "The Sum is: " << add(firstNum,secondNum);
+    return 0;
 }
